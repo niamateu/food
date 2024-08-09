@@ -10,19 +10,21 @@
 </head>
 
 <body>
-  <div class="card mx-auto mt-3" style="width: 500px;">
-    <div class="card-header text-center">
-      <h1>メニュー提案アプリ</h1>
-    </div>
-    <div class="card-body text-center">
-      <p class="card-title">出力を押すとおすすめを表示します</p>
-      <form method="post">
-        <button class="btn btn-primary" type="submit">出力</button>
-      </form>
-      <div class="alert alert-info mt-3" role="alert">
-        {% if select_menu %}
-        おすすめは {{ select_menu }} です
-        {% endif %}
+  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card mx-auto mt-3"  style="max-width: 100%; width: 500px;">
+      <div class="card-header text-center">
+        <h1>メニュー提案アプリ</h1>
+      </div>
+      <div class="card-body text-center">
+        <p class="card-title">出力を押すとおすすめを表示します</p>
+        <form method="post">
+          <button class="btn btn-primary" type="submit">出力</button>
+        </form>
+        <div class="alert alert-info mt-3" role="alert">
+          {% if select_menu %}
+          おすすめは {{ select_menu }} です
+          {% endif %}
+        </div>
       </div>
     </div>
   </div>
