@@ -14,7 +14,7 @@ https://food-kafl.onrender.com/
 - VSCode
 - render.com
 
-## :gear: アプリ機能
+## :fork_and_knife: アプリ機能
 
 ### メニュー出力
 
