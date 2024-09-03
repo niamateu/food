@@ -15,6 +15,5 @@ def index():
                 select_menu = random.choice(menu)
         return render_template('index.html',select_menu=select_menu)
 
-# アプリをデバックモードで起動
 if __name__=='__main__':
-        app.run(debug=True)
+        app.run(debug=False)
