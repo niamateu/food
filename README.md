@@ -9,10 +9,14 @@ https://food-kafl.onrender.com/
 ## :fork_and_knife: 開発環境 
 
 - Python
-- Django
-- mysqlclient
-- django-bootstrap
-- python-dotenv
+- flask
+- bootstrap
 - VSCode
-- pythonanywhere
+- render.com
+
+## :gear: アプリ機能
+
+### メニュー出力
+
+リストからランダムにメニューを出力します
 
