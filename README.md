@@ -20,3 +20,4 @@ https://food-kafl.onrender.com/
 
 リストからランダムにメニューを出力します
 
+![output](https://github.com/user-attachments/assets/b43f9dc6-2e68-4a1d-88a2-a854f5cd886b)
