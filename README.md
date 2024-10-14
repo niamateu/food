@@ -1,4 +1,4 @@
-## :fork_and_knife: アプリURL
+## :fork_and_knife: メニュー提案アプリURL
 
 https://food-kafl.onrender.com/
 
